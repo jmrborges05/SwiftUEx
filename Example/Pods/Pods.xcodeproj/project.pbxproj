@@ -26,8 +26,6 @@
 		F17992941D758B3F00123C7C /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17992931D758B3F00123C7C /* IntExtension.swift */; };
 		F17992961D75954A00123C7C /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17992951D75954A00123C7C /* KeychainWrapper.swift */; };
 		F179929C1D75B8B900123C7C /* Reach.swift in Sources */ = {isa = PBXBuildFile; fileRef = F179929B1D75B8B900123C7C /* Reach.swift */; };
-		F179929E1D75B8E900123C7C /* JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F179929D1D75B8E900123C7C /* JSON.swift */; };
-		F17992A01D75B90300123C7C /* ResponseExtensionm.swift in Sources */ = {isa = PBXBuildFile; fileRef = F179929F1D75B90300123C7C /* ResponseExtensionm.swift */; };
 		FB4948BE1B6C52F4B365252E7E4E8E9D /* SwiftEx-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C1B589B75CB03AD8C78D08B6D71F71 /* SwiftEx-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -76,8 +74,6 @@
 		F17992931D758B3F00123C7C /* IntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
 		F17992951D75954A00123C7C /* KeychainWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
 		F179929B1D75B8B900123C7C /* Reach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reach.swift; sourceTree = "<group>"; };
-		F179929D1D75B8E900123C7C /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
-		F179929F1D75B90300123C7C /* ResponseExtensionm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseExtensionm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,8 +130,6 @@
 		37A2F1D9882C976F50026EE0C8703EDC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F179929F1D75B90300123C7C /* ResponseExtensionm.swift */,
-				F179929D1D75B8E900123C7C /* JSON.swift */,
 				F179929B1D75B8B900123C7C /* Reach.swift */,
 				F17992951D75954A00123C7C /* KeychainWrapper.swift */,
 				F17992931D758B3F00123C7C /* IntExtension.swift */,
@@ -324,13 +318,11 @@
 				F179929C1D75B8B900123C7C /* Reach.swift in Sources */,
 				F17992941D758B3F00123C7C /* IntExtension.swift in Sources */,
 				F17992861D758B0A00123C7C /* StringExtension.swift in Sources */,
-				F17992A01D75B90300123C7C /* ResponseExtensionm.swift in Sources */,
 				F17992961D75954A00123C7C /* KeychainWrapper.swift in Sources */,
 				F17992901D758B3000123C7C /* DoubleExtension.swift in Sources */,
 				F179928C1D758B2400123C7C /* UINavigationControllerExtension.swift in Sources */,
 				F179927C1D758ACE00123C7C /* NRSwiftPlist.swift in Sources */,
 				F17992841D758B0100123C7C /* UIImageEffects.swift in Sources */,
-				F179929E1D75B8E900123C7C /* JSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
