@@ -11,7 +11,7 @@ enum NRSimplePlistError: ErrorType {
      case Fatal(String)
 }
 
-func plistGet(key: String, forPlistNamed: String) throws -> AnyObject? {
+public func plistGet(key: String, forPlistNamed: String) throws -> AnyObject? {
      let formats: UnsafeMutablePointer<NSPropertyListFormat> = nil
      if let path: String = NSBundle.mainBundle().pathForResource(forPlistNamed, ofType: "plist") {
           if let plistData = NSData(contentsOfFile: path) {
@@ -42,7 +42,7 @@ func plistGet(key: String, forPlistNamed: String) throws -> AnyObject? {
      return nil
 }
 
-func plistSet(newValue: AnyObject, forKey: String, inPlistNamed: String) throws {
+public func plistSet(newValue: AnyObject, forKey: String, inPlistNamed: String) throws {
      let formats: UnsafeMutablePointer<NSPropertyListFormat> = nil
      var array: NSMutableDictionary = NSMutableDictionary()
      let fileManager: NSFileManager = NSFileManager.defaultManager()

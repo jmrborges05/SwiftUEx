@@ -9,8 +9,8 @@
 import Foundation
 
 
-extension UITableViewCell {
-     func shareItem(description: NSAttributedString, link: String) {
+public extension UITableViewCell {
+    public func shareItem(description: NSAttributedString, link: String) {
           let activityViewController = UIActivityViewController(activityItems: [link], applicationActivities: nil)
           let excludeActivities = [
                UIActivityTypeAssignToContact, UIActivityTypePostToVimeo, UIActivityTypePostToFlickr, UIActivityTypeSaveToCameraRoll, UIActivityTypeAirDrop

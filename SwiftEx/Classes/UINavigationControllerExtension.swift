@@ -8,35 +8,35 @@
 
 import Foundation
 
-extension UINavigationController {
+public extension UINavigationController {
 
-     func pushViewController( viewController: UIViewController, animated: Bool, completion: () -> Void ) {
-          pushViewController( viewController, animated: animated )
-          setCompletionHandler( completion )
-     }
+    public  func pushViewController( viewController: UIViewController, animated: Bool, completion: () -> Void ) {
+        pushViewController( viewController, animated: animated )
+        setCompletionHandler( completion )
+    }
 
-     func popViewControllerAnimated( animated: Bool, completion: () -> Void ) {
-          popViewControllerAnimated( animated )
-          setCompletionHandler( completion )
-     }
+    public  func popViewControllerAnimated( animated: Bool, completion: () -> Void ) {
+        popViewControllerAnimated( animated )
+        setCompletionHandler( completion )
+    }
 
-     func popToViewController( viewController: UIViewController, animated: Bool, completion: () -> Void ) {
-          popToViewController( viewController, animated: animated )
-          setCompletionHandler( completion )
-     }
+    public  func popToViewController( viewController: UIViewController, animated: Bool, completion: () -> Void ) {
+        popToViewController( viewController, animated: animated )
+        setCompletionHandler( completion )
+    }
 
-     func popToRootViewControllerAnimated( animated: Bool, completion: () -> Void ) {
-          popToRootViewControllerAnimated( animated )
-          setCompletionHandler( completion )
-     }
+    public  func popToRootViewControllerAnimated( animated: Bool, completion: () -> Void ) {
+        popToRootViewControllerAnimated( animated )
+        setCompletionHandler( completion )
+    }
 
-     private func setCompletionHandler( completion: () -> Void ) {
-          if let coordinator = transitionCoordinator() {
-               coordinator.animateAlongsideTransition( nil ) { _ in
-                    completion()
-               }
-          } else {
-               assertionFailure()
-          }
-     }
+    public func setCompletionHandler( completion: () -> Void ) {
+        if let coordinator = transitionCoordinator() {
+            coordinator.animateAlongsideTransition( nil ) { _ in
+                completion()
+            }
+        } else {
+            assertionFailure()
+        }
+    }
 }
