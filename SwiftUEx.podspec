@@ -26,7 +26,7 @@ s.homepage         = 'https://github.com/sucrewar/SwiftUEx'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'sucrewar' => 'sucrewar10@gmail.com' }
 s.source           = { :git => 'https://github.com/sucrewar/SwiftUEx.git', :tag => s.version.to_s }
-# s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+# s.social_media_url = 'https://twitter.com/sucrewar10'
 
 s.ios.deployment_target = '8.0'
 
