@@ -1,9 +1,3 @@
-//
-//  NRswiftPlist.swift
-//
-//  Created by Norman Russo on 04/11/14.
-//  Copyright (c) 2014 Norman Russo. All rights reserved.
-//
 
 import UIKit
 

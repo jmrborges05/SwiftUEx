@@ -8,6 +8,24 @@
 ##Descrpition 
 SwiftUEx is a collection of useful extensions to use on various types of data
 
+# Extensions Provide 
+Int
+TableViewCell
+Double
+UIView
+UINavigationController 
+Array
+String
+UIImage
+UIImageView
+NSDate
+UIColor
+
+#Helpers Provide
+Plist get
+Reach
+KeyChainWrapper
+
 ## Installation
 
 SwiftUEx is available through [CocoaPods](http://cocoapods.org). To install

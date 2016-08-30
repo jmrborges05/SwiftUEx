@@ -1,10 +1,3 @@
-//
-//  KeychainWrapper.swift
-//  ichorsports
-//
-//  Created by Diogo Grilo on 20/04/2016.
-//  Copyright © 2016 Diogo Grilo. All rights reserved.
-//
 
 import Foundation
 
