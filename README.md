@@ -33,6 +33,17 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SwiftUEx'
 ```
+Because `SwiftUEx` is fully written in Swift, be sure to add `use_frameworks!` at the top of your Podfile.
+
+```ruby
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+
+pod 'RazzleDazzle'
+```
+
+```
 
 ## Author
 
