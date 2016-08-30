@@ -32,7 +32,7 @@ enum ReachabilityStatus: CustomStringConvertible {
 
 public class Reach {
 
-    func connectionStatus() -> ReachabilityStatus {
+    public func connectionStatus() -> ReachabilityStatus {
         var zeroAddress = sockaddr_in()
         zeroAddress.sin_len = UInt8(sizeofValue(zeroAddress))
         zeroAddress.sin_family = sa_family_t(AF_INET)
