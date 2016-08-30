@@ -43,8 +43,6 @@ use_frameworks!
 pod 'SwiftUEx'
 ```
 
-```
-
 ## Author
 
 sucrewar, sucrewar10@gmail.com
