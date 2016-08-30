@@ -6,7 +6,7 @@
 [![Platform](https://img.shields.io/cocoapods/p/SwiftUEx.svg?style=flat)](http://cocoapods.org/pods/SwiftUEx)
 
 ##Descrpition 
-SwiftUEx is a collection of extensions
+SwiftUEx is a collection of useful extensions to use on various types of data
 
 ## Installation
 
