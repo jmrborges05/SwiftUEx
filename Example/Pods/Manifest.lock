@@ -1,0 +1,16 @@
+PODS:
+  - SwiftEx (0.1.0)
+
+DEPENDENCIES:
+  - SwiftEx (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftEx:
+    :path: ../
+
+SPEC CHECKSUMS:
+  SwiftEx: d972d4e3032a7e9ba0e153b64346444f00f8bb17
+
+PODFILE CHECKSUM: e28418553add2efd8411eabd9f2fbd7de6ad3147
+
+COCOAPODS: 1.0.1

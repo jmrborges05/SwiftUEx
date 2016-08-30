@@ -1,0 +1,6 @@
+framework module SwiftEx {
+  umbrella header "SwiftEx-umbrella.h"
+
+  export *
+  module * { export * }
+}

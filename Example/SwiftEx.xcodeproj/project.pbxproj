@@ -14,7 +14,7 @@
 /* Begin PBXFileReference section */
 		32A3003E878E12CE316A61AB /* Pods-SwiftEx_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftEx_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftEx_Tests/Pods-SwiftEx_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		43FC5FD73D5575B306EFFD5A /* Pods-SwiftEx_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftEx_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftEx_Tests/Pods-SwiftEx_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		496925950DF4C7E4FF9B91AC /* SwiftEx.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftEx.podspec; path = ../SwiftEx.podspec; sourceTree = "<group>"; };
+		496925950DF4C7E4FF9B91AC /* SwiftUEx.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SwiftUEx.podspec; path = ../SwiftUEx.podspec; sourceTree = "<group>"; };
 		5C3ABE51BB318ECDE26D4C2A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* SwiftEx_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftEx_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,7 +74,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				496925950DF4C7E4FF9B91AC /* SwiftEx.podspec */,
+				496925950DF4C7E4FF9B91AC /* SwiftUEx.podspec */,
 				5C3ABE51BB318ECDE26D4C2A /* README.md */,
 				7CE87A2F78841A71B88C9086 /* LICENSE */,
 			);
