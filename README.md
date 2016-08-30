@@ -5,15 +5,12 @@
 [![License](https://img.shields.io/cocoapods/l/SwiftUEx.svg?style=flat)](http://cocoapods.org/pods/SwiftUEx)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftUEx.svg?style=flat)](http://cocoapods.org/pods/SwiftUEx)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
-## Requirements
+##Descrpition 
+SwiftUEx is a collection of extensions
 
 ## Installation
 
-SwiftEx is available through [CocoaPods](http://cocoapods.org). To install
+SwiftUEx is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
