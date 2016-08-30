@@ -27,7 +27,7 @@ import SystemConfiguration
 
 let ReachabilityStatusChangedNotification = "ReachabilityStatusChangedNotification"
 
-private enum ReachabilityType: CustomStringConvertible {
+public enum ReachabilityType: CustomStringConvertible {
     case WWAN
     case WiFi
 
@@ -39,7 +39,7 @@ private enum ReachabilityType: CustomStringConvertible {
     }
 }
 
-private enum ReachabilityStatus: CustomStringConvertible {
+public enum ReachabilityStatus: CustomStringConvertible {
     case Offline
     case Online(ReachabilityType)
     case Unknown
@@ -55,7 +55,7 @@ private enum ReachabilityStatus: CustomStringConvertible {
 
 public class Reach {
 
-    func connectionStatus() -> ReachabilityStatus {
+    public func connectionStatus() -> ReachabilityStatus {
         var zeroAddress = sockaddr_in()
         zeroAddress.sin_len = UInt8(sizeofValue(zeroAddress))
         zeroAddress.sin_family = sa_family_t(AF_INET)
@@ -71,7 +71,7 @@ public class Reach {
         return ReachabilityStatus(reachabilityFlags: flags)
     }
 
-    func monitorReachabilityChanges() {
+    public func monitorReachabilityChanges() {
         let host = "google.com"
         var context = SCNetworkReachabilityContext(version: 0, info: nil, retain: nil, release: nil, copyDescription: nil)
         let reachability = SCNetworkReachabilityCreateWithName(nil, host)!
@@ -85,8 +85,8 @@ public class Reach {
     }
 }
 
-public extension ReachabilityStatus {
-    init(reachabilityFlags flags: SCNetworkReachabilityFlags) {
+extension ReachabilityStatus {
+    public init(reachabilityFlags flags: SCNetworkReachabilityFlags) {
         let connectionRequired = flags.contains(.ConnectionRequired)
         let isReachable = flags.contains(.Reachable)
         let isWWAN = flags.contains(.IsWWAN)

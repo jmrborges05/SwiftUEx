@@ -6,8 +6,7 @@
 //  Copyright © 2016 João Borges. All rights reserved.
 //
 import Foundation
-
-public extension NSDate {
+extension NSDate {
 
     public func getUTC () -> String {
         let date = NSDate()
@@ -241,7 +240,7 @@ public func <(lhs: NSDate, rhs: NSDate) -> Bool {
     return false
 }
 
-public extension NSTimeZone {
+extension NSTimeZone {
     public func offsetStringFromGMT() -> String {
         var offsetSeconds = secondsFromGMT
         var offsetString = "+00:00"
