@@ -12,7 +12,6 @@
 		83F851336D0617ED7AB7624AC8A50360 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		B2E29A663F8737D00E6A867A58AD83C0 /* Pods-SwiftEx_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9DC4BD0F99C2AD20C145CEC94497A7 /* Pods-SwiftEx_Tests-dummy.m */; };
 		B924CFF34990BD136B85E8F775E1C8A7 /* Pods-SwiftEx_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6EB876E11CF533DC14234D57202299C /* Pods-SwiftEx_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F179927A1D758ABB00123C7C /* Reach.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17992791D758ABB00123C7C /* Reach.swift */; };
 		F179927C1D758ACE00123C7C /* NRSwiftPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F179927B1D758ACE00123C7C /* NRSwiftPlist.swift */; };
 		F179927E1D758AD900123C7C /* MINSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F179927D1D758AD900123C7C /* MINSDateExtension.swift */; };
 		F17992801D758ADF00123C7C /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F179927F1D758ADF00123C7C /* UIColorExtension.swift */; };
@@ -60,7 +59,6 @@
 		D2878FF46340339DEBA3F87CB96491CB /* Pods-SwiftEx_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwiftEx_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D6EB876E11CF533DC14234D57202299C /* Pods-SwiftEx_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftEx_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E089BCDD82CDBF0D5FA4508747E5B6B9 /* Pods-SwiftEx_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftEx_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F17992791D758ABB00123C7C /* Reach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reach.swift; sourceTree = "<group>"; };
 		F179927B1D758ACE00123C7C /* NRSwiftPlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRSwiftPlist.swift; sourceTree = "<group>"; };
 		F179927D1D758AD900123C7C /* MINSDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MINSDateExtension.swift; sourceTree = "<group>"; };
 		F179927F1D758ADF00123C7C /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
@@ -143,7 +141,6 @@
 				F179927F1D758ADF00123C7C /* UIColorExtension.swift */,
 				F179927D1D758AD900123C7C /* MINSDateExtension.swift */,
 				F179927B1D758ACE00123C7C /* NRSwiftPlist.swift */,
-				F17992791D758ABB00123C7C /* Reach.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -320,7 +317,6 @@
 				F17992961D75954A00123C7C /* KeychainWrapper.swift in Sources */,
 				F17992901D758B3000123C7C /* DoubleExtension.swift in Sources */,
 				F179928C1D758B2400123C7C /* UINavigationControllerExtension.swift in Sources */,
-				F179927A1D758ABB00123C7C /* Reach.swift in Sources */,
 				F179927C1D758ACE00123C7C /* NRSwiftPlist.swift in Sources */,
 				F17992841D758B0100123C7C /* UIImageEffects.swift in Sources */,
 			);

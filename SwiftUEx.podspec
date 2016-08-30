@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'SwiftUEx'
-s.version          = '0.1.4'
+s.version          = '0.1.9'
 s.summary          = 'SwiftUEx collection of extensions'
 
 # This description is used to generate tags and improve search results.
