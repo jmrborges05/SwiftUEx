@@ -5,26 +5,26 @@
 [![License](https://img.shields.io/cocoapods/l/SwiftUEx.svg?style=flat)](http://cocoapods.org/pods/SwiftUEx)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftUEx.svg?style=flat)](http://cocoapods.org/pods/SwiftUEx)
 
-##Descrpition 
+#Descrpition 
 SwiftUEx is a collection of useful extensions to use on various types of data
 
-# Extensions Provide 
-Int
-TableViewCell
-Double
-UIView
-UINavigationController 
-Array
-String
-UIImage
-UIImageView
-NSDate
-UIColor
+## Extensions Provide 
+Int,
+TableViewCell,
+Double,
+UIView,
+UINavigationController, 
+Array,
+String,
+UIImage,
+UIImageView,
+NSDate,
+UIColor,
 
-#Helpers Provide
-Plist get
-Reach
-KeyChainWrapper
+##Helpers Provide
+Plist get,
+Reach,
+KeyChainWrapper,
 
 ## Installation
 
