@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/SwiftUEx.svg?style=flat)](http://cocoapods.org/pods/SwiftUEx)
 [![License](https://img.shields.io/cocoapods/l/SwiftUEx.svg?style=flat)](http://cocoapods.org/pods/SwiftUEx)
 [![Platform](https://img.shields.io/cocoapods/p/SwiftUEx.svg?style=flat)](http://cocoapods.org/pods/SwiftUEx)
+![](https://img.shields.io/badge/language-swift-blue.svg)
 
 #Descrpition 
 SwiftUEx is a collection of useful extensions to use on various types of data
