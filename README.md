@@ -23,7 +23,6 @@ UIColor,
 
 ##Helpers Provide
 Plist get,
-Reach,
 KeyChainWrapper,
 
 ## Installation
