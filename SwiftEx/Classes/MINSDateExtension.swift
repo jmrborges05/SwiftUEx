@@ -135,37 +135,37 @@ public extension NSDate {
         return NSCalendar.currentCalendar().dateFromComponents(dc)!
     }
 
-    public class func secondsBetween(date1 d1: NSDate, date2 d2: NSDate) -> Int {
+    public  func secondsBetween(date1 d1: NSDate, date2 d2: NSDate) -> Int {
         let dc = NSCalendar.currentCalendar().components(NSCalendarUnit.Second, fromDate: d1, toDate: d2, options:[])
         return dc.second
     }
 
-    public class func minutesBetween(date1 d1: NSDate, date2 d2: NSDate) -> Int {
+    public  func minutesBetween(date1 d1: NSDate, date2 d2: NSDate) -> Int {
         let dc = NSCalendar.currentCalendar().components(NSCalendarUnit.Minute, fromDate: d1, toDate: d2, options: [])
         return dc.minute
     }
 
-    public class func hoursBetween(date1 d1: NSDate, date2 d2: NSDate) -> Int {
+    public  func hoursBetween(date1 d1: NSDate, date2 d2: NSDate) -> Int {
         let dc = NSCalendar.currentCalendar().components(NSCalendarUnit.Hour, fromDate: d1, toDate: d2, options: [])
         return dc.hour
     }
 
-    public class func daysBetween(date1 d1: NSDate, date2 d2: NSDate) -> Int {
+    public  func daysBetween(date1 d1: NSDate, date2 d2: NSDate) -> Int {
         let dc = NSCalendar.currentCalendar().components(NSCalendarUnit.Day, fromDate: d1, toDate: d2, options: [])
         return dc.day
     }
 
-    public class func weeksBetween(date1 d1: NSDate, date2 d2: NSDate) -> Int {
+    public  func weeksBetween(date1 d1: NSDate, date2 d2: NSDate) -> Int {
         let dc = NSCalendar.currentCalendar().components(NSCalendarUnit.WeekOfYear, fromDate: d1, toDate: d2, options: [])
         return dc.weekOfYear
     }
 
-    public class func monthsBetween(date1 d1: NSDate, date2 d2: NSDate) -> Int {
+    public  func monthsBetween(date1 d1: NSDate, date2 d2: NSDate) -> Int {
         let dc = NSCalendar.currentCalendar().components(NSCalendarUnit.Month, fromDate: d1, toDate: d2, options: [])
         return dc.month
     }
 
-    public class func yearsBetween(date1 d1: NSDate, date2 d2: NSDate) -> Int {
+    public  func yearsBetween(date1 d1: NSDate, date2 d2: NSDate) -> Int {
         let dc = NSCalendar.currentCalendar().components(NSCalendarUnit.Year, fromDate: d1, toDate: d2, options: [])
         return dc.year
     }
@@ -219,7 +219,7 @@ public extension NSDate {
     }
 }
 
-public extension NSDate: Comparable {
+extension NSDate: Comparable {
 
 }
 
