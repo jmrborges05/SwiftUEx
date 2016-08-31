@@ -10,7 +10,7 @@ import UIKit
 import WebKit
 import QuartzCore
 
-class MIWebViewController: UIViewController, WKNavigationDelegate {
+public class MIWebViewController: UIViewController, WKNavigationDelegate {
 
     var webView: WKWebView = WKWebView(frame: CGRectZero)
     @IBOutlet weak var progressView: UIProgressView!
