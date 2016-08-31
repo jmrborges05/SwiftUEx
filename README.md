@@ -22,10 +22,11 @@ UIImage,
 UIImageView,
 NSDate,
 UIColor,
+UILabel
 
 ##Helpers Provide
 Plist get,
-KeyChainWrapper,
+KeyChainWrapper
 
 ## Installation
 
