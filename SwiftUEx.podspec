@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'SwiftUEx'
-s.version          = '0.1.18'
+s.version          = '0.1.19'
 s.summary          = 'SwiftUEx collection of extensions'
 
 # This description is used to generate tags and improve search results.
@@ -37,6 +37,6 @@ s.source_files = 'SwiftEx/Classes/**/*'
 # }
 
 # s.public_header_files = 'Pod/Classes/**/*.h'
-s.frameworks = 'UIKit', 'Foundation', 'Accelerate', 'SystemConfiguration'
+s.frameworks = 'UIKit', 'Foundation', 'Accelerate', 'SystemConfiguration', "WebKit"
 #s.dependency 'SwiftyJSON', 'Alamofire'
 end
