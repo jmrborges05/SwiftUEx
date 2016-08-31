@@ -13,7 +13,6 @@
 		B2E29A663F8737D00E6A867A58AD83C0 /* Pods-SwiftEx_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9DC4BD0F99C2AD20C145CEC94497A7 /* Pods-SwiftEx_Tests-dummy.m */; };
 		B924CFF34990BD136B85E8F775E1C8A7 /* Pods-SwiftEx_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D6EB876E11CF533DC14234D57202299C /* Pods-SwiftEx_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F133F8D71D7716120075FF26 /* DefaultFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F133F8D61D7716120075FF26 /* DefaultFonts.swift */; };
-		F133F8DA1D7719070075FF26 /* MIWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F133F8D81D7719070075FF26 /* MIWebViewController.swift */; };
 		F133F8DC1D77194F0075FF26 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F133F8DB1D77194F0075FF26 /* WebKit.framework */; };
 		F133F8DD1D7719540075FF26 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F133F8DB1D77194F0075FF26 /* WebKit.framework */; };
 		F179927C1D758ACE00123C7C /* NRSwiftPlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = F179927B1D758ACE00123C7C /* NRSwiftPlist.swift */; };
@@ -64,8 +63,6 @@
 		D6EB876E11CF533DC14234D57202299C /* Pods-SwiftEx_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SwiftEx_Tests-umbrella.h"; sourceTree = "<group>"; };
 		E089BCDD82CDBF0D5FA4508747E5B6B9 /* Pods-SwiftEx_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwiftEx_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F133F8D61D7716120075FF26 /* DefaultFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultFonts.swift; sourceTree = "<group>"; };
-		F133F8D81D7719070075FF26 /* MIWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MIWebViewController.swift; sourceTree = "<group>"; };
-		F133F8D91D7719070075FF26 /* MIWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MIWebViewController.xib; sourceTree = "<group>"; };
 		F133F8DB1D77194F0075FF26 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/WebKit.framework; sourceTree = DEVELOPER_DIR; };
 		F179927B1D758ACE00123C7C /* NRSwiftPlist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRSwiftPlist.swift; sourceTree = "<group>"; };
 		F179927D1D758AD900123C7C /* MINSDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MINSDateExtension.swift; sourceTree = "<group>"; };
@@ -138,8 +135,6 @@
 		37A2F1D9882C976F50026EE0C8703EDC /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F133F8D81D7719070075FF26 /* MIWebViewController.swift */,
-				F133F8D91D7719070075FF26 /* MIWebViewController.xib */,
 				F133F8D61D7716120075FF26 /* DefaultFonts.swift */,
 				F17992951D75954A00123C7C /* KeychainWrapper.swift */,
 				F17992931D758B3F00123C7C /* IntExtension.swift */,
@@ -326,7 +321,6 @@
 				F17992801D758ADF00123C7C /* UIColorExtension.swift in Sources */,
 				F179928A1D758B1D00123C7C /* ArrayExtension.swift in Sources */,
 				F179928E1D758B2A00123C7C /* UIViewExtension.swift in Sources */,
-				F133F8DA1D7719070075FF26 /* MIWebViewController.swift in Sources */,
 				F17992941D758B3F00123C7C /* IntExtension.swift in Sources */,
 				F17992861D758B0A00123C7C /* StringExtension.swift in Sources */,
 				F17992961D75954A00123C7C /* KeychainWrapper.swift in Sources */,
