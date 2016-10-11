@@ -283,5 +283,12 @@ public extension String {
         }
         return array.joinWithSeparator(",")
     }
-
+    
+    func truncate(length: Int, trailing: String? = nil) -> String {
+        if self.characters.count > length {
+            return self.substringToIndex(self.startIndex.advancedBy(length)) + (trailing ?? "")
+        } else {
+            return self
+        }
+    }
 }
