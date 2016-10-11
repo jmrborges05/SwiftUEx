@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'SwiftUEx'
-s.version          = '2.0.3'
+s.version          = '2.0.6'
 s.summary          = 'SwiftUEx collection of extensions'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ s.author           = { 'sucrewar' => 'sucrewar10@gmail.com' }
 s.source           = { :git => 'https://github.com/sucrewar/SwiftUEx.git', :tag => s.version.to_s }
 # s.social_media_url = 'https://twitter.com/sucrewar10'
 
-s.ios.deployment_target = '9.0'
+s.ios.deployment_target = '8.0'
 #s.watchos.deployment_target = '2.0'
 
 s.source_files = 'SwiftEx/Classes/**/*'
